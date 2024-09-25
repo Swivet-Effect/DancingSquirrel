@@ -2,7 +2,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 40%;
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 @font-face {
@@ -14,6 +20,9 @@ h1 {
     text-align: center;
     font-size: 350%;
     font-family: customFont;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 body {
