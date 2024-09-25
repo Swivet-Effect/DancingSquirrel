@@ -1,5 +1,5 @@
-img {
-    display: block;
+.dancer {
+    display: inline-flexbox;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
@@ -28,4 +28,34 @@ h1 {
 body {
     background-color: black;
     color:cornsilk;
+}
+
+.construction {
+    display: inline-flexbox;
+    width: 10%;
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.constructionFlip {
+    display: inline-flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div {
+    text-align: center;
 }
